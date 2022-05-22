@@ -24,11 +24,14 @@ class SplashScreen : AppCompatActivity() {
                 } catch (e: InterruptedException) {
                     e.printStackTrace()
                 } finally {
-                    startActivity(Intent(this@SplashScreen, MainActivity::class.java))
+                    startActivity(Intent(this@SplashScreen, Login::class.java))
                 }
             }
         }
         thread.start()
+
+
+        // MainActivity::class.java
 
     }
 }
