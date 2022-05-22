@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/shape_tas"
+            android:padding="8dp"
+            android:src="@drawable/ic_travel_icon"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/welcome"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/sign_in"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:hint="Email address"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            />
+
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_login"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
