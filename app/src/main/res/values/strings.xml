@@ -2,4 +2,17 @@
     <string name="app_name">Travel</string>
     <string name="welcome">Welcome Back</string>
     <string name="sign_in">Sign in to continue</string>
+
+    <!-- For Spinner -->
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
 </resources>
