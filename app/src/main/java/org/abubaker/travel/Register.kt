@@ -16,7 +16,6 @@ class Register : AppCompatActivity() {
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         // Back
         binding.btnBack.setOnClickListener {
 
